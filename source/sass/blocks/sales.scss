@@ -128,7 +128,8 @@
     }
   }
 
-  .swiper-slide:hover {
+  .swiper-slide:hover,
+  .swiper-slide:focus {
     .sales__item {
       position: absolute;
       width: 100%;
