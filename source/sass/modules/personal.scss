@@ -1,0 +1,44 @@
+.personal {
+  padding-right: 64px;
+
+  @media (max-width: $descktop-width) {
+    padding-bottom: 17px;
+    padding-right: 0;
+  }
+
+  a {
+    padding: 0 8px;
+    position: relative;
+
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+    }
+
+    @media (max-width: $descktop-width) {
+      &:first-of-type {
+        padding-left: 0;
+      }
+    }
+  }
+
+  a:first-of-type::after {
+    content: "";
+    width: 1px;
+    height: 10px;
+    position: absolute;
+    background-color: $night-rider;
+    top: 5px;
+    left: 52px;
+
+    @media (max-width: $descktop-width) {
+      left: 44px;
+    }
+
+    @media (max-width: $mobile-width) {
+      left: 34px;
+      top: 2px;
+    }
+  }
+
+}

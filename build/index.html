@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Goldy Store - ювелирный магазин">
+  <title>"Goldy Store - ювелирный магазин"</title>
+
+  <link rel="preload" href="fonts/RobotoCondensed-Bold.woff2" as="font">
+  <link rel="preload" href="fonts/Prata-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/Inter-LightBETA.woff2" as="font">
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/Inter-Medium.woff2" as="font">
+  <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font">
+  <link rel="preload" href="fonts/Inter-Bold.woff2" as="font">
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/style.min.css" type="text/css">
+</head>
+
+<body class="body">
+
+  <header>
+    <div class="container">
+      <section class="inform">
+        <h2 class="visually-hidden">Информация для пользователя</h2>
+        <div class="inform__wrap">
+
+          <form action="#">
+            <div class="sitys" data-state="">
+              <svg width="13" height="17" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#pointer"></use>
+              </svg>
+              <div class="sitys__title" data-default="st-petersburg">
+                Санкт-Петербург</div>
+              <div class="sitys__content">
+                <input id="st-petersburg" class="sitys__input" type="radio" name="singleSelect" checked="">
+                <label for="st-petersburg" class="sitys__label">Санкт-Петербург</label>
+                <input id="moscow" class="sitys__input" type="radio" name="singleSelect">
+                <label for="moscow" class="sitys__label">Москва</label>
+                <input id="nizhny-novgorod" class="sitys__input" type="radio" name="singleSelect">
+                <label for="nizhny-novgorod" class="sitys__label">Нижний Новгород</label>
+                <input id="rostov-on-don" class="sitys__input" type="radio" name="singleSelect">
+                <label for="rostov-on-don" class="sitys__label">Ростов-на-Дону</label>
+              </div>
+            </div>
+          </form>
+
+          <a href="tel:88007852535" class="inform__phone">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="img/sprite.svg#phone"></use>
+            </svg>
+            <span>8 800 785-25-35</span>
+          </a>
+        </div>
+
+        <div class="logo">
+          <div class="logo__img">
+            <picture>
+              <img src="img/logo.svg" alt="Логотип 'Gold Store'" width="183" height="532">
+            </picture>
+          </div>
+          <p class="logo__text">
+            ювелирный магазин
+          </p>
+        </div>
+
+        <div class="inform__wrap">
+          <div class="personal">
+            <a href="#">Вход</a>
+            <a href="#">Регистрация</a>
+          </div>
+          <div class="favourite">
+            <a href="#">
+              <div class="favourite__counter">
+                23
+              </div>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#favorite"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#chart"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#bag"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <nav class="navigation navigation--nojs">
+        <button type="button" class="navigation__toggle ">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+
+        <div class="navigation__wrap">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link navigation__item--link-small" href="#">
+                Каталог
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">
+                Акции
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">
+                Бренды
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">
+                Магазины
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">
+                О нас
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">
+                Доставка и оплата
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">
+                Статьи
+              </a>
+            </li>
+          </ul>
+          <div class="search">
+            <label for="search">
+              <span class="visually-hidden">Поиск</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#search"></use>
+              </svg>
+              <input type="search" name="search" id="search" placeholder="Поиск по сайту">
+            </label>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container container--hidden">
+      <h1 class="visually-hidden">Ювелирный магазин 'Goldy Store'</h1>
+
+      <section class="offers">
+        <h2 class="visually-hidden">Лучшие преддложения</h2>
+        <div class="swiper offers__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide offers__item">
+              <div class="offers__wrap">
+                <h3 class="offers__heading">
+                  <span>Суперскидка до 60%</span>
+                  НА БРИЛЛИАНТЫ
+                </h3>
+                <button type="button" class="button">подробнее</button>
+              </div>
+              <div class="offers__img">
+                <picture>
+                  <source type="image/webp" srcset="img/discount-diamonds.webp 1x, img/discount-diamonds@2x.webp 2x">
+                  <img src="img/discount-diamonds.png" alt="Бриллиантовое кольцо" width="548" height="548" srcset="img/discount-diamonds@2x.png 2x">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide offers__item">
+              <div class="offers__wrap">
+                <h3 class="offers__heading">
+                  <span>Суперскидка до 60%</span>
+                  НА БРИЛЛИАНТЫ
+                </h3>
+                <button type="button" class="button">подробнее</button>
+              </div>
+              <div class="offers__img">
+                <picture>
+                  <source type="image/webp" srcset="img/discount-diamonds.webp 1x, img/discount-diamonds@2x.webp 2x">
+                  <img src="img/discount-diamonds.png" alt="Бриллиантовое кольцо" width="548" height="548" srcset="img/discount-diamonds@2x.png 2x">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide offers__item">
+              <div class="offers__wrap">
+                <h3 class="offers__heading">
+                  <span>Суперскидка до 60%</span>
+                  НА БРИЛЛИАНТЫ
+                </h3>
+                <button type="button" class="button">подробнее</button>
+              </div>
+              <div class="offers__img">
+                <picture>
+                  <source type="image/webp" srcset="img/discount-diamonds.webp 1x, img/discount-diamonds@2x.webp 2x">
+                  <img src="img/discount-diamonds.png" alt="Бриллиантовое кольцо" width="548" height="548" srcset="img/discount-diamonds@2x.png 2x">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="offers__btn">
+            <div class="offers__btn--prev button-swiper">
+              <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#arrow-big"></use>
+              </svg>
+            </div>
+            <div class="offers__btn--next button-swiper">
+              <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#arrow-big"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="categories">
+        <h2 class="block-heading">Популярные категории</h2>
+        <ul class="categories__list">
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <div class="categories__img">
+                <picture>
+                  <source type="image/webp" srcset="img/categories/rings.webp 1x, img/categories/rings@2x.webp 2x">
+                  <img src="img/categories/rings.png" alt="Кольца" width="127" height="100" srcset="img/categories/rings@2x.png 2x">
+                </picture>
+              </div>
+              <p class="categories__text">
+                Кольца
+              </p>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <div class="categories__img">
+                <picture>
+                  <source type="image/webp" srcset="img/categories/earrings.webp 1x, img/categories/earrings@2x.webp 2x">
+                  <img src="img/categories/earrings.png" alt="Серьги" width="102" height="130" srcset="img/categories/earrings@2x.png 2x">
+                </picture>
+              </div>
+              <p class="categories__text">
+                Серьги
+              </p>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link categories__link--wedding">
+              <div class="categories__img">
+                <picture>
+                  <source type="image/webp" srcset="img/categories/engagement-rings.webp 1x, img/categories/engagement-rings@2x.webp 2x">
+                  <img src="img/categories/engagement-rings.png" alt="Помолвочные кольца" width="117" height="93" srcset="img/categories/engagement-rings@2x.png 2x">
+                </picture>
+              </div>
+              <p class="categories__text">
+                Помолвочные<br> кольца
+              </p>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <div class="categories__img">
+                <picture>
+                  <source type="image/webp" srcset="img/categories/bracelets.webp 1x, img/categories/bracelets@2x.webp 2x">
+                  <img src="img/categories/bracelets.png" alt="Браслеты" width="141" height="118" srcset="img/categories/bracelets@2x.png 2x">
+                </picture>
+              </div>
+              <p class="categories__text">
+                Браслеты
+              </p>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <div class="categories__img">
+                <picture>
+                  <source type="image/webp" srcset="img/categories/necklaces.webp 1x, img/categories/necklaces@2x.webp 2x">
+                  <img src="img/categories/necklaces.png" alt="Колье и подвески" width="128" height="128" srcset="img/necklaces@2x.png 2x">
+                </picture>
+              </div>
+              <p class="categories__text">
+                Колье и подвески
+              </p>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <div class="categories__img">
+                <picture>
+                  <source type="image/webp" srcset="img/categories/watch.webp 1x, img/categories/watch@2x.webp 2x">
+                  <img src="img/categories/watch.png" alt="Часы" width="122" height="147" srcset="img/watch@2x.png 2x">
+                </picture>
+              </div>
+              <p class="categories__text">
+                Часы
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="sales">
+        <h2 class="block-heading">Распродажа</h2>
+        <ul class="sales__nav">
+          <li>
+            <button type="button" class="sales__nav__btn">Кольца</button>
+          </li>
+          <li>
+            <button type="button" class="sales__nav__btn">Серьги</button>
+          </li>
+          <li>
+            <button type="button" class="sales__nav__btn">Браслеты</button>
+          </li>
+          <li>
+            <button type="button" class="sales__nav__btn">Часы</button>
+          </li>
+        </ul>
+
+        <div class="sales__slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="sales__item sales__item--action">
+                <div class="sales__status">
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#like"></use>
+                    </svg>
+                  </button>
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#eyes"></use>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="sales__gallery swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-1.webp 1x, img/sales/brilliant-ring-1@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-1.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-1@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-1.webp 1x, img/sales/brilliant-ring-1@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-1.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-1@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-1.webp 1x, img/sales/brilliant-ring-1@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-1.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-1@2x.png 2x">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="sales__price">
+                  <p class="sales__price--new">41 000 ₽</p>
+                  <p class="sales__price--old">65 000 ₽</p>
+                </div>
+                <p class="sales__text">
+                  Стильное кольцо из белого золота c бриллиантами
+                </p>
+
+                <form action="#" class="criteries">
+                  <div class="criteries__container criteries__container--type" data-state="">
+                    <div class="criteries__title" data-default="white-gold">
+                      Белое золото</div>
+                    <div class="criteries__wrap">
+                      <input id="white-gold" class="criteries__input" type="radio" name="typeSelect" checked="">
+                      <label for="white-gold" class="criteries__label">Белое золото</label>
+                      <input id="yellow-gold" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="yellow-gold" class="criteries__label">Желтое золото</label>
+                      <input id="silver" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="silver" class="criteries__label">Серебро</label>
+                    </div>
+                  </div>
+
+                  <div class="criteries__container criteries__container--size" data-state="">
+                    <div class="criteries__title" data-default="size-16">
+                      Размер: 16</div>
+                    <div class="criteries__wrap">
+                      <input id="size-16" class="criteries__input" type="radio" name="sizeSelect" checked="">
+                      <label for="size-16" class="criteries__label">Размер: 16</label>
+                      <input id="size-17" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-17" class="criteries__label">Размер: 17</label>
+                      <input id="size-18" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-18" class="criteries__label">Размер: 18</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="sales__item">
+                <div class="sales__status">
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#like"></use>
+                    </svg>
+                  </button>
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#eyes"></use>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="sales__gallery swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-2.webp 1x, img/sales/brilliant-ring-2@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-2.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-2@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-2.webp 1x, img/sales/brilliant-ring-2@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-2.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-2@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-2.webp 1x, img/sales/brilliant-ring-2@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-2.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-2@2x.png 2x">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="sales__price">
+                  <p class="sales__price--new">56 000 ₽</p>
+                </div>
+                <p class="sales__text">
+                  Стильное кольцо из белого золота c бриллиантами
+                </p>
+
+                <form action="#" class="criteries">
+                  <div class="criteries__container criteries__container--type" data-state="">
+                    <div class="criteries__title" data-default="white-gold">
+                      Белое золото</div>
+                    <div class="criteries__wrap">
+                      <input id="white-gold-1" class="criteries__input" type="radio" name="typeSelect" checked="">
+                      <label for="white-gold-1" class="criteries__label">Белое золото</label>
+                      <input id="yellow-gold-1" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="yellow-gold-1" class="criteries__label">Желтое золото</label>
+                      <input id="silver-1" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="silver-1" class="criteries__label">Серебро</label>
+                    </div>
+                  </div>
+
+                  <div class="criteries__container criteries__container--size" data-state="">
+                    <div class="criteries__title" data-default="size-16">
+                      Размер: 16</div>
+                    <div class="criteries__wrap">
+                      <input id="size-16-1" class="criteries__input" type="radio" name="sizeSelect" checked="">
+                      <label for="size-16-1" class="criteries__label">Размер: 16</label>
+                      <input id="size-17-1" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-17-1" class="criteries__label">Размер: 17</label>
+                      <input id="size-18-1" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-18-1" class="criteries__label">Размер: 18</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="sales__item">
+                <div class="sales__status">
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#like"></use>
+                    </svg>
+                  </button>
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#eyes"></use>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="sales__gallery swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-3.webp 1x, img/sales/brilliant-ring-3@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-3.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-3@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-3.webp 1x, img/sales/brilliant-ring-3@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-3.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-3@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-3.webp 1x, img/sales/brilliant-ring-3@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-3.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-3@2x.png 2x">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="sales__price">
+                  <p class="sales__price--new">37 500 ₽</p>
+                </div>
+                <p class="sales__text">
+                  Стильное кольцо из белого золота c бриллиантами
+                </p>
+
+                <form action="#" class="criteries">
+                  <div class="criteries__container criteries__container--type" data-state="">
+                    <div class="criteries__title" data-default="white-gold">
+                      Белое золото</div>
+                    <div class="criteries__wrap">
+                      <input id="white-gold-2" class="criteries__input" type="radio" name="typeSelect" checked="">
+                      <label for="white-gold-2" class="criteries__label">Белое золото</label>
+                      <input id="yellow-gold-2" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="yellow-gold-2" class="criteries__label">Желтое золото</label>
+                      <input id="silver-2" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="silver-2" class="criteries__label">Серебро</label>
+                    </div>
+                  </div>
+
+                  <div class="criteries__container criteries__container--size" data-state="">
+                    <div class="criteries__title" data-default="size-16">
+                      Размер: 16</div>
+                    <div class="criteries__wrap">
+                      <input id="size-16-2" class="criteries__input" type="radio" name="sizeSelect" checked="">
+                      <label for="size-16-2" class="criteries__label">Размер: 16</label>
+                      <input id="size-17-2" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-17-2" class="criteries__label">Размер: 17</label>
+                      <input id="size-18-2" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-18-2" class="criteries__label">Размер: 18</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="sales__item">
+                <div class="sales__status">
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#like"></use>
+                    </svg>
+                  </button>
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#eyes"></use>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="sales__gallery swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-4.webp 1x, img/sales/brilliant-ring-4@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-4.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-4@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-4.webp 1x, img/sales/brilliant-ring-4@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-4.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-4@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-4.webp 1x, img/sales/brilliant-ring-4@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-4.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-4@2x.png 2x">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="sales__price">
+                  <p class="sales__price--new">39 200 ₽</p>
+                </div>
+                <p class="sales__text">
+                  Стильное кольцо из белого золота c бриллиантами
+                </p>
+
+                <form action="#" class="criteries">
+                  <div class="criteries__container criteries__container--type" data-state="">
+                    <div class="criteries__title" data-default="white-gold">
+                      Белое золото</div>
+                    <div class="criteries__wrap">
+                      <input id="white-gold-3" class="criteries__input" type="radio" name="typeSelect" checked="">
+                      <label for="white-gold-3" class="criteries__label">Белое золото</label>
+                      <input id="yellow-gold-3" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="yellow-gold-3" class="criteries__label">Желтое золото</label>
+                      <input id="silver-3" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="silver-3" class="criteries__label">Серебро</label>
+                    </div>
+                  </div>
+
+                  <div class="criteries__container criteries__container--size" data-state="">
+                    <div class="criteries__title" data-default="size-16">
+                      Размер: 16</div>
+                    <div class="criteries__wrap">
+                      <input id="size-16-3" class="criteries__input" type="radio" name="sizeSelect" checked="">
+                      <label for="size-16-3" class="criteries__label">Размер: 16</label>
+                      <input id="size-17-3" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-17-3" class="criteries__label">Размер: 17</label>
+                      <input id="size-18-3" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-18-3" class="criteries__label">Размер: 18</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="sales__item">
+                <div class="sales__status">
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#like"></use>
+                    </svg>
+                  </button>
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#eyes"></use>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="sales__gallery swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-1.webp 1x, img/sales/brilliant-ring-1@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-1.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-1@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-1.webp 1x, img/sales/brilliant-ring-1@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-1.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-1@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-1.webp 1x, img/sales/brilliant-ring-1@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-1.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-1@2x.png 2x">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="sales__price">
+                  <p class="sales__price--new">41 000 ₽</p>
+                  <p class="sales__price--old">65 000 ₽</p>
+                </div>
+                <p class="sales__text">
+                  Стильное кольцо из белого золота c бриллиантами
+                </p>
+
+                <form action="#" class="criteries">
+                  <div class="criteries__container criteries__container--type" data-state="">
+                    <div class="criteries__title" data-default="white-gold">
+                      Белое золото</div>
+                    <div class="criteries__wrap">
+                      <input id="white-gold-4" class="criteries__input" type="radio" name="typeSelect" checked="">
+                      <label for="white-gold-4" class="criteries__label">Белое золото</label>
+                      <input id="yellow-gold-4" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="yellow-gold-4" class="criteries__label">Желтое золото</label>
+                      <input id="silver-4" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="silver-4" class="criteries__label">Серебро</label>
+                    </div>
+                  </div>
+
+                  <div class="criteries__container criteries__container--size" data-state="">
+                    <div class="criteries__title" data-default="size-16">
+                      Размер: 16</div>
+                    <div class="criteries__wrap">
+                      <input id="size-16-4" class="criteries__input" type="radio" name="sizeSelect" checked="">
+                      <label for="size-16-4" class="criteries__label">Размер: 16</label>
+                      <input id="size-17-4" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-17-4" class="criteries__label">Размер: 17</label>
+                      <input id="size-18-4" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-18-4" class="criteries__label">Размер: 18</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="sales__item">
+                <div class="sales__status">
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#like"></use>
+                    </svg>
+                  </button>
+                  <button type="button" class="sales__status__btn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#eyes"></use>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="sales__gallery swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-1.webp 1x, img/sales/brilliant-ring-1@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-1.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-1@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-1.webp 1x, img/sales/brilliant-ring-1@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-1.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-1@2x.png 2x">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide sales__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/sales/brilliant-ring-1.webp 1x, img/sales/brilliant-ring-1@2x.webp 2x">
+                        <img src="img/sales/brilliant-ring-1.png" alt="Бриллиантовое кольцо" width="200" height="200" srcset="img/sales/brilliant-ring-1@2x.png 2x">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="sales__price">
+                  <p class="sales__price--new">41 000 ₽</p>
+                  <p class="sales__price--old">65 000 ₽</p>
+                </div>
+                <p class="sales__text">
+                  Стильное кольцо из белого золота c бриллиантами
+                </p>
+
+                <form action="#" class="criteries">
+                  <div class="criteries__container criteries__container--type" data-state="">
+                    <div class="criteries__title" data-default="st-petersburg">
+                      Белое золото</div>
+                    <div class="criteries__wrap">
+                      <input id="white-gold-5" class="criteries__input" type="radio" name="typeSelect" checked="">
+                      <label for="white-gold-5" class="criteries__label">Белое золото</label>
+                      <input id="yellow-gold-5" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="yellow-gold-5" class="criteries__label">Желтое золото</label>
+                      <input id="silver-5" class="criteries__input" type="radio" name="typeSelect">
+                      <label for="silver-5" class="criteries__label">Серебро</label>
+                    </div>
+                  </div>
+
+                  <div class="criteries__container criteries__container--size" data-state="">
+                    <div class="criteries__title" data-default="size-16">
+                      Размер: 16</div>
+                    <div class="criteries__wrap">
+                      <input id="size-16-5" class="criteries__input" type="radio" name="sizeSelect" checked="">
+                      <label for="size-16-5" class="criteries__label">Размер: 16</label>
+                      <input id="size-17-5" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-17-5" class="criteries__label">Размер: 17</label>
+                      <input id="size-18-5" class="criteries__input" type="radio" name="sizeSelect">
+                      <label for="size-18-5" class="criteries__label">Размер: 18</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="sales__btn">
+            <div class="sales__btn--prev button-swiper">
+              <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#arrow-big"></use>
+              </svg>
+            </div>
+            <div class="sales__btn--next button-swiper">
+              <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#arrow-big"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="discounts">
+        <h2 class="visually-hidden">Наши лучшие скидки</h2>
+        <div class="discounts__item">
+          <h3 class="discounts__heading">Скидки<br> на все украшения<br> c бриллиантами</h3>
+          <div class="discounts__wrap discounts__wrap--decorations">
+            <p>До <span>-50%</span></p>
+          </div>
+          <div class="discounts__img">
+            <picture>
+              <source type="image/webp" srcset="img/discount-decorations.webp 1x, img/discount-decorations@2x.webp 2x">
+              <img src="img/discount-decorations.png" alt="Бриллиантовая подвеска" width="156" height="290" srcset="img/discount-decorations@2x.png 2x">
+            </picture>
+          </div>
+        </div>
+        <div class="discounts__item">
+          <h3 class="discounts__heading">Скидки<br> на кольца<br> и браслеты</h3>
+          <div class="discounts__wrap discounts__wrap--rings">
+            <p>До <span>-40%</span></p>
+          </div>
+          <div class="discounts__img">
+            <picture>
+              <source type="image/webp" srcset="img/discount-rings.webp 1x, img/discount-rings@2x.webp 2x">
+              <img src="img/discount-rings.png" alt="Бриллиантовые кольца" width="229" height="290" srcset="img/discount-rings@2x.png 2x">
+            </picture>
+          </div>
+        </div>
+        <div class="discounts__item">
+          <h3 class="discounts__heading">Снижение цен<br> на обручальные<br> кольца</h3>
+          <div class="discounts__wrap discounts__wrap--wedding">
+            <p>До <span>-60%</span></p>
+          </div>
+          <div class="discounts__img discounts__img--wedding">
+            <picture>
+              <source type="image/webp" srcset="img/discount-wedding-rings.webp 1x, img/discount-wedding-rings@2x.webp 2x">
+              <img src="img/discount-wedding-rings.png" alt="Обручальные кольца" width="220" height="249" srcset="img/discount-wedding-rings@2x.png 2x">
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <h2 class="block-heading">Товар дня</h2>
+        <div class="swiper products__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide products__item">
+              <ul class="products__categories">
+                <li class="products__categories__item products__categories__item--new">New</li>
+                <li class="products__categories__item products__categories__item--hit">Хит</li>
+                <li class="products__categories__item products__categories__item--sale">Sale</li>
+              </ul>
+              <div class="products__gallery swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide products__img">
+                    <picture>
+                      <source type="image/webp" srcset="img/product-day.webp 1x, img/product-day@2x.webp 2x">
+                      <img src="img/product-day.png" alt="Бриллиантовое кольцо" width="550" height="550" srcset="img/product-day@2x.png 2x">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide products__img">
+                    <picture>
+                      <source type="image/webp" srcset="img/product-day.webp 1x, img/product-day@2x.webp 2x">
+                      <img src="img/product-day.png" alt="Бриллиантовое кольцо" width="550" height="550" srcset="img/product-day@2x.png 2x">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide products__img">
+                    <picture>
+                      <source type="image/webp" srcset="img/product-day.webp 1x, img/product-day@2x.webp 2x">
+                      <img src="img/product-day.png" alt="Бриллиантовое кольцо" width="550" height="550" srcset="img/product-day@2x.png 2x">
+                    </picture>
+                  </div>
+                </div>
+                <div class="products__arrows">
+                  <div class="products__arrow products__arrow--prev">
+                    <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#arrow-small"></use>
+                    </svg>
+                  </div>
+                  <div class="products__arrow products__arrow--next">
+                    <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#arrow-small"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products__wrap">
+                <div class="products__rating">
+                  <ul>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li class="products__rating--empty"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-uncheck"></use>
+                      </svg></li>
+                  </ul>
+                  <span>4,2</span>
+                </div>
+                <h3 class="products__heading">Кольцо из золота с бриллиантами</h3>
+                <p class="products__articul">
+                  Артикул: 1012076
+                </p>
+                <div class="products__price">
+                  <span class="products__price--new">22 000 ₽</span>
+                  <span class="products__price--old">23 000 ₽</span>
+                  <span class="products__price--discount">-45%</span>
+                </div>
+                <div class="products__timers">
+                  <div class="products__timer">
+                    <span class="products__timer--hour">12</span>
+                    часов
+                  </div>
+                  <div class="products__timer">
+                    <span class="products__timer--minute">45</span>
+                    минут
+                  </div>
+                  <div class="products__timer">
+                    <span class="products__timer--second">51</span>
+                    секунд
+                  </div>
+                </div>
+
+                <form action="#" id="product-day">
+
+                  <div class="products__colors">
+                    <h4>цвет</h4>
+                    <div class="products__colors__wrap">
+                      <input type="radio" name="colors" id="grey">
+                      <label class="products__color products__color--grey" for="grey"></label>
+
+                      <input type="radio" name="colors" id="lemon">
+                      <label class="products__color products__color--lemon" for="lemon"></label>
+
+                      <input type="radio" name="colors" id="orange">
+                      <label class="products__color products__color--orange" for="orange"></label>
+
+                      <input type="radio" name="colors" id="lettuce">
+                      <label class="products__color products__color--lettuce" for="lettuce"></label>
+                    </div>
+                  </div>
+
+                  <div class="products__size">
+                    <div class="products__size__wrap">
+                      <h4>размер</h4>
+                      <div class="products__question"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <use xlink:href="img/sprite.svg#question"></use>
+                        </svg></div>
+                      <div class="products__answer">
+                        <p>Также как существующая теория напрямую зависит от экономической целесообразности принимаемых
+                          решений.</p>
+                      </div>
+
+                    </div>
+                    <div class="products__size__list">
+                      <input type="radio" name="size" id="16,5">
+                      <label class="products__size__item" for="16,5">16,5</label>
+
+                      <input type="radio" name="size" id="17,5">
+                      <label class="products__size__item" for="17,5">17,5</label>
+
+                      <input type="radio" name="size" id="18,5">
+                      <label class="products__size__item" for="18,5">18,5</label>
+
+                      <input type="radio" name="size" id="19">
+                      <label class="products__size__item" for="19">19</label>
+
+                      <input type="radio" name="size" id="19,5">
+                      <label class="products__size__item" for="19,5">19,5</label>
+
+                      <input type="radio" name="size" id="20">
+                      <label class="products__size__item" for="20">20</label>
+
+                      <input type="radio" name="size" id="20,5">
+                      <label class="products__size__item" for="20,5">20,5</label>
+
+                      <input type="radio" name="size" id="21">
+                      <label class="products__size__item" for="21">21</label>
+
+                      <input type="radio" name="size" id="21,5" disabled="">
+                      <label class="products__size__item" for="21,5">21,5</label>
+
+                      <input type="radio" name="size" id="22,5" disabled="">
+                      <label class="products__size__item" for="22,5">22,5</label>
+                    </div>
+                  </div>
+                </form>
+                <div class="products__container">
+                  <div class="products__container__wrap">
+                    <button type="button" class="button button--big">в корзину</button>
+                    <button type="submit" form="product-day" class="button button--big button--light">купить в 1
+                      клик</button>
+                  </div>
+
+                  <div class="products__share">
+                    <a href="#">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#like"></use>
+                      </svg>
+                      <span>Сохранить</span>
+                    </a>
+                    <a href="#">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#chart"></use>
+                      </svg>
+                      <span>Сравнить</span>
+                    </a>
+                    <a href="#">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#share"></use>
+                      </svg>
+                      <span>Поделиться</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide products__item">
+              <ul class="products__categories">
+                <li class="products__categories__item products__categories__item--new">New</li>
+                <li class="products__categories__item products__categories__item--hit">Хит</li>
+                <li class="products__categories__item products__categories__item--sale">Sale</li>
+              </ul>
+              <div class="products__gallery swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide products__img">
+                    <picture>
+                      <source type="image/webp" srcset="img/product-day.webp 1x, img/product-day@2x.webp 2x">
+                      <img src="img/product-day.png" alt="Бриллиантовое кольцо" width="550" height="550" srcset="img/product-day@2x.png 2x">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide products__img">
+                    <picture>
+                      <source type="image/webp" srcset="img/product-day.webp 1x, img/product-day@2x.webp 2x">
+                      <img src="img/product-day.png" alt="Бриллиантовое кольцо" width="550" height="550" srcset="img/product-day@2x.png 2x">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide products__img">
+                    <picture>
+                      <source type="image/webp" srcset="img/product-day.webp 1x, img/product-day@2x.webp 2x">
+                      <img src="img/product-day.png" alt="Бриллиантовое кольцо" width="550" height="550" srcset="img/product-day@2x.png 2x">
+                    </picture>
+                  </div>
+                </div>
+                <div class="products__arrows">
+                  <div class="products__arrow products__arrow--prev">
+                    <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#arrow-small"></use>
+                    </svg>
+                  </div>
+                  <div class="products__arrow products__arrow--next">
+                    <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#arrow-small"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products__wrap">
+                <div class="products__rating">
+                  <ul>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li class="products__rating--empty"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-uncheck"></use>
+                      </svg></li>
+                  </ul>
+                  <span>4,2</span>
+                </div>
+                <h3 class="products__heading">Кольцо из золота с бриллиантами</h3>
+                <p class="products__articul">
+                  Артикул: 1012076
+                </p>
+                <div class="products__price">
+                  <span class="products__price--new">22 000 ₽</span>
+                  <span class="products__price--old">23 000 ₽</span>
+                  <span class="products__price--discount">-45%</span>
+                </div>
+                <div class="products__timers">
+                  <div class="products__timer">
+                    <span class="products__timer--hour">12</span>
+                    часов
+                  </div>
+                  <div class="products__timer">
+                    <span class="products__timer--minute">45</span>
+                    минут
+                  </div>
+                  <div class="products__timer">
+                    <span class="products__timer--second">51</span>
+                    секунд
+                  </div>
+                </div>
+
+                <form class="products__colors" action="#">
+                  <h4>цвет</h4>
+                  <div class="products__colors__wrap">
+                    <input type="radio" name="colors" id="grey-1">
+                    <label class="products__color products__color--grey" for="grey-1"></label>
+
+                    <input type="radio" name="colors" id="lemon-1">
+                    <label class="products__color products__color--lemon" for="lemon-1"></label>
+
+                    <input type="radio" name="colors" id="orange-1">
+                    <label class="products__color products__color--orange" for="orange-1"></label>
+
+                    <input type="radio" name="colors" id="lettuce-1">
+                    <label class="products__color products__color--lettuce" for="lettuce-1"></label>
+                  </div>
+                </form>
+
+                <form class="products__size">
+                  <div class="products__size__wrap">
+                    <h4>размер</h4>
+                    <div class="products__question"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#question"></use>
+                      </svg></div>
+                    <div class="products__answer">
+                      <p>Также как существующая теория напрямую зависит от экономической целесообразности принимаемых
+                        решений.</p>
+                    </div>
+
+                  </div>
+                  <div class="products__size__list">
+                    <input type="radio" name="size" id="16,5-1">
+                    <label class="products__size__item" for="16,5-1">16,5</label>
+
+                    <input type="radio" name="size" id="17,5-1">
+                    <label class="products__size__item" for="17,5-1">17,5</label>
+
+                    <input type="radio" name="size" id="18,5-1">
+                    <label class="products__size__item" for="18,5-1">18,5</label>
+
+                    <input type="radio" name="size" id="19-1">
+                    <label class="products__size__item" for="19-1">19</label>
+
+                    <input type="radio" name="size" id="19,5-1">
+                    <label class="products__size__item" for="19,5-1">19,5</label>
+
+                    <input type="radio" name="size" id="20-1">
+                    <label class="products__size__item" for="20-1">20</label>
+
+                    <input type="radio" name="size" id="20,5-1">
+                    <label class="products__size__item" for="20,5-1">20,5</label>
+
+                    <input type="radio" name="size" id="21-1">
+                    <label class="products__size__item" for="21-1">21</label>
+
+                    <input type="radio" name="size" id="21,5-1" disabled="">
+                    <label class="products__size__item" for="21,5-1">21,5</label>
+
+                    <input type="radio" name="size" id="22,5-1" disabled="">
+                    <label class="products__size__item" for="22,5-1">22,5</label>
+                  </div>
+                </form>
+                <div class="products__container">
+                  <div class="products__container__wrap">
+                    <button type="button" class="button button--big">в корзину</button>
+                    <button type="submit" class="button button--big button--light">купить в 1 клик</button>
+                  </div>
+
+                  <div class="products__share">
+                    <a href="#">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#like"></use>
+                      </svg>
+                      <span>Сохранить</span>
+                    </a>
+                    <a href="#">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#chart"></use>
+                      </svg>
+                      <span>Сравнить</span>
+                    </a>
+                    <a href="#">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#share"></use>
+                      </svg>
+                      <span>Поделиться</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide products__item">
+              <ul class="products__categories">
+                <li class="products__categories__item products__categories__item--new">New</li>
+                <li class="products__categories__item products__categories__item--hit">Хит</li>
+                <li class="products__categories__item products__categories__item--sale">Sale</li>
+              </ul>
+              <div class="products__gallery swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide products__img">
+                    <picture>
+                      <source type="image/webp" srcset="img/product-day.webp 1x, img/product-day@2x.webp 2x">
+                      <img src="img/product-day.png" alt="Бриллиантовое кольцо" width="550" height="550" srcset="img/product-day@2x.png 2x">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide products__img">
+                    <picture>
+                      <source type="image/webp" srcset="img/product-day.webp 1x, img/product-day@2x.webp 2x">
+                      <img src="img/product-day.png" alt="Бриллиантовое кольцо" width="550" height="550" srcset="img/product-day@2x.png 2x">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide products__img">
+                    <picture>
+                      <source type="image/webp" srcset="img/product-day.webp 1x, img/product-day@2x.webp 2x">
+                      <img src="img/product-day.png" alt="Бриллиантовое кольцо" width="550" height="550" srcset="img/product-day@2x.png 2x">
+                    </picture>
+                  </div>
+                </div>
+                <div class="products__arrows">
+                  <div class="products__arrow products__arrow--prev">
+                    <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#arrow-small"></use>
+                    </svg>
+                  </div>
+                  <div class="products__arrow products__arrow--next">
+                    <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="img/sprite.svg#arrow-small"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products__wrap">
+                <div class="products__rating">
+                  <ul>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-check"></use>
+                      </svg></li>
+                    <li class="products__rating--empty"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#star-uncheck"></use>
+                      </svg></li>
+                  </ul>
+                  <span>4,2</span>
+                </div>
+                <h3 class="products__heading">Кольцо из золота с бриллиантами</h3>
+                <p class="products__articul">
+                  Артикул: 1012076
+                </p>
+                <div class="products__price">
+                  <span class="products__price--new">22 000 ₽</span>
+                  <span class="products__price--old">23 000 ₽</span>
+                  <span class="products__price--discount">-45%</span>
+                </div>
+                <div class="products__timers">
+                  <div class="products__timer">
+                    <span class="products__timer--hour">12</span>
+                    часов
+                  </div>
+                  <div class="products__timer">
+                    <span class="products__timer--minute">45</span>
+                    минут
+                  </div>
+                  <div class="products__timer">
+                    <span class="products__timer--second">51</span>
+                    секунд
+                  </div>
+                </div>
+
+                <form class="-2" action="#">
+                  <h4>цвет</h4>
+                  <div class="products__colors__wrap">
+                    <input type="radio" name="colors" id="grey-2">
+                    <label class="products__color products__color--grey" for="grey-2"></label>
+
+                    <input type="radio" name="colors" id="lemon-2">
+                    <label class="products__color products__color--lemon" for="lemon-2"></label>
+
+                    <input type="radio" name="colors" id="orange-2">
+                    <label class="products__color products__color--orange" for="orange-2"></label>
+
+                    <input type="radio" name="colors" id="lettuce-2">
+                    <label class="products__color products__color--lettuce" for="lettuce-2"></label>
+                  </div>
+                </form>
+
+                <form class="products__size">
+                  <div class="products__size__wrap">
+                    <h4>размер</h4>
+                    <div class="products__question"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#question"></use>
+                      </svg></div>
+                    <div class="products__answer">
+                      <p>Также как существующая теория напрямую зависит от экономической целесообразности принимаемых
+                        решений.</p>
+                    </div>
+
+                  </div>
+                  <div class="products__size__list">
+                    <input type="radio" name="size" id="16,5-2">
+                    <label class="products__size__item" for="16,5-2">16,5</label>
+
+                    <input type="radio" name="size" id="17,5-2">
+                    <label class="products__size__item" for="17,5-2">17,5</label>
+
+                    <input type="radio" name="size" id="18,5-2">
+                    <label class="products__size__item" for="18,5-2">18,5</label>
+
+                    <input type="radio" name="size" id="19-2">
+                    <label class="products__size__item" for="19-2">19</label>
+
+                    <input type="radio" name="size" id="19,5-2">
+                    <label class="products__size__item" for="19,5-2">19,5</label>
+
+                    <input type="radio" name="size" id="20-2">
+                    <label class="products__size__item" for="20-2">20</label>
+
+                    <input type="radio" name="size" id="20,5-2">
+                    <label class="products__size__item" for="20,5-2">20,5</label>
+
+                    <input type="radio" name="size" id="21-2">
+                    <label class="products__size__item" for="21-2">21</label>
+
+                    <input type="radio" name="size" id="21,5-2" disabled="">
+                    <label class="products__size__item" for="21,5-2">21,5</label>
+
+                    <input type="radio" name="size" id="22,5-2" disabled="">
+                    <label class="products__size__item" for="22,5-2">22,5</label>
+                  </div>
+                </form>
+                <div class="products__container">
+                  <div class="products__container__wrap">
+                    <button type="button" class="button button--big">в корзину</button>
+                    <button type="submit" class="button button--big button--light">купить в 1 клик</button>
+                  </div>
+
+                  <div class="products__share">
+                    <a href="#">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#like"></use>
+                      </svg>
+                      <span>Сохранить</span>
+                    </a>
+                    <a href="#">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#chart"></use>
+                      </svg>
+                      <span>Сравнить</span>
+                    </a>
+                    <a href="#">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/sprite.svg#share"></use>
+                      </svg>
+                      <span>Поделиться</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="products__btn">
+            <div class="products__btn--prev button-swiper">
+              <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#arrow-big"></use>
+              </svg>
+            </div>
+            <div class="products__btn--next button-swiper">
+              <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#arrow-big"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <section class="articles">
+        <h2 class="block-heading">Статьи</h2>
+        <a href="#" class="articles__link">
+          Читать все
+          <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#arrow"></use>
+          </svg>
+        </a>
+        <ul class="articles__list">
+          <li class="articles__item">
+            <picture>
+              <source type="image/webp" srcset="img/articles/wedding-rings.webp 1x, img/articles/wedding-rings@2x.webp 2x">
+              <img src="img/articles/wedding-rings.png" alt="Обручальные кольца" width="310" height="381" srcset="img/articles/wedding-rings@2x.png 2x">
+            </picture>
+            <p class="articles__date">21 сентября 2021</p>
+            <h3 class="articles__heading">Обручальные кольца: тренды 2021</h3>
+          </li>
+          <li class="articles__item">
+            <picture>
+              <source type="image/webp" srcset="img/articles/key-trends.webp 1x, img/articles/key-trends@2x.webp 2x">
+              <img src="img/articles/key-trends.png" alt="Ожерелье на шее" width="310" height="381" srcset="img/articles/key-trends@2x.png 2x">
+            </picture>
+            <p class="articles__date">25 сентября 2021</p>
+            <h3 class="articles__heading">Главные ювелирные тренды года</h3>
+          </li>
+          <li class="articles__item">
+            <picture>
+              <source type="image/webp" srcset="img/articles/pearls.webp 1x, img/articles/pearls@2x.webp 2x">
+              <img src="img/articles/pearls.png" alt="Украшение из жемчуга" width="310" height="381" srcset="img/articles/pearls@2x.png 2x">
+            </picture>
+            <p class="articles__date">21 сентября 2021</p>
+            <h3 class="articles__heading">Жемчуг: 7 малоизвестных фактов о культовом украшении</h3>
+          </li>
+          <li class="articles__item">
+            <picture>
+              <source type="image/webp" srcset="img/articles/distinguish.webp 1x, img/articles/distinguish@2x.webp 2x">
+              <img src="img/articles/distinguish.png" alt="Подвеска на руке" width="310" height="381" srcset="img/articles/distinguish@2x.png 2x">
+            </picture>
+            <p class="articles__date">21 сентября 2021</p>
+            <h3 class="articles__heading">Как отличить золото от подделки: 10 практических советов</h3>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </footer>
+  <script src="js/vendor.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

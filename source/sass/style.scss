@@ -1,0 +1,31 @@
+// Global
+
+@import "global/fonts.scss";
+@import "global/variables.scss";
+@import "global/global.scss";
+
+// Swiper
+
+@import "swiper/swiper-vars.scss";
+@import "swiper/swiper.scss";
+@import "swiper/swiper-pagination.scss";
+
+// Modules
+
+@import "modules/sitys.scss";
+@import "modules/logo.scss";
+@import "modules/personal.scss";
+@import "modules/favourite.scss";
+@import "modules/search.scss";
+@import "modules/criteries.scss";
+
+// Blocks
+
+@import "blocks/inform.scss";
+@import "blocks/navigation.scss";
+@import "blocks/offers.scss";
+@import "blocks/categories.scss";
+@import "blocks/sales.scss";
+@import "blocks/discounts.scss";
+@import "blocks/products.scss";
+@import "blocks/articles.scss";

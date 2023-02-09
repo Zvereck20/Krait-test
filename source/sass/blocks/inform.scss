@@ -1,0 +1,50 @@
+.inform {
+  padding-top: 24px;
+  padding-bottom: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: $mobile-width) {
+    flex-wrap: wrap;
+  }
+
+  &__wrap {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: $descktop-width) {
+      padding-top: 0;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  form {
+    display: inline-block;
+  }
+
+  &__phone {
+    padding-left: 23px;
+    display: flex;
+    align-items: flex-end;
+
+    @media (max-width: $descktop-width) {
+      padding-left: 0;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      svg {
+        opacity: 0.5;
+      }
+    }
+
+    svg {
+      fill: $night-rider;
+      padding-right: 10px;
+    }
+  }
+}

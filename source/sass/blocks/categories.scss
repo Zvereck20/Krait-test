@@ -1,0 +1,104 @@
+.categories {
+  padding-top: 119px;
+
+  @media (max-width: $tablet-width) {
+    padding-top: 75px;
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-top: 50px;
+  }
+
+  &__list {
+    padding-top: 41px;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  &__item {
+    flex-basis: 15.5%;
+
+    @media (max-width: $tablet-width) {
+      flex-basis: 30%;
+      margin-bottom: 20px;
+      margin-right: 20px;
+    }
+
+    @media (max-width: $mobile-width) {
+      flex-basis: 45%;
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    padding-top: 30px;
+    padding-bottom: 26px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: $white-smoke;
+
+    &--wedding {
+      height: 207px;
+      padding-bottom: 22px;
+
+      .categories__img {
+        margin-top: 15px;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      .categories__img {
+        transform: scale(1.2);
+        transition: 2s;
+      }
+    }
+
+    @media (max-width: $descktop-width) {
+      height: 170px;
+
+      &--wedding {
+        height: 170px;
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+      height: 140px;
+
+      &--wedding {
+        height: 140px;
+      }
+    }
+
+  }
+
+  &__img {
+    @media (max-width: $mobile-width) {
+      img {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__text {
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    margin-top: auto;
+    text-align: center;
+
+    @media (max-width: $mobile-width) {
+      line-height: 140%;
+    }
+  }
+}

@@ -1,0 +1,199 @@
+.page {
+  height: 100%;
+}
+
+.body {
+  min-height: 100%;
+  font-family: "Inter", "Arial", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+  color: $night-rider;
+  overflow-x: hidden;
+  position: relative;
+
+  @media (max-width: $tablet-width) {}
+
+  @media (max-width: $mobile-width) {
+    font-size: 10px;
+  }
+}
+
+.body-lock {
+  width: 100%;
+  overflow-y: scroll;
+  position: fixed;
+}
+
+main {
+  min-width: 0;
+  position: relative;
+}
+
+a {
+  color: $night-rider;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  margin: 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 54px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $night-rider;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+  @media (max-width: $mobile-width) {
+    width: 119px;
+    height: 29px;
+    font-size: 10px;
+  }
+
+  &--big {
+    width: 400px;
+    height: 56px;
+
+    @media (max-width: $mobile-width) {
+      width: 100%;
+      height: 50px;
+      font-size: 14px;
+    }
+  }
+
+  &--light {
+    color: $night-rider;
+    background-color: $white;
+    border: 1px solid $night-rider;
+
+    &:hover,
+    &:focus {
+      color: $white;
+      background-color: $night-rider;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $matterhorn;
+  }
+
+  &:active {
+    background-color: $black;
+  }
+}
+
+.button-swiper {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $night-rider;
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition-duration: 0.5s;
+
+  svg {
+    fill: $black
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 45px;
+    height: 45px;
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 35px;
+    height: 35px;
+  }
+
+  &:first-of-type {
+    transform: rotate(180deg);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $white-smoke-3;
+  }
+
+  &:active {
+    justify-content: flex-end;
+
+    svg {
+      padding-right: 11px;
+    }
+  }
+}
+
+.block-heading {
+  margin: 0;
+  font-family: "Prata", "Arial", serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+
+  @media (max-width: $tablet-width) {
+    font-size: 30px;
+  }
+
+  @media (max-width: $mobile-width) {
+    font-size: 25px;
+  }
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 40px;
+  margin: 0 auto;
+
+  &--hidden {
+    overflow-x: hidden;
+  }
+
+  @media (max-width: $tablet-width) {
+    padding: 0 25px;
+  }
+
+  @media (max-width: $mobile-width) {
+    min-width: 260px;
+    padding: 0 15px;
+  }
+}
